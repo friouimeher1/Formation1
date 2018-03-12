@@ -1,1 +1,8 @@
 verything in javascript is synchronous :mean don't wait .pass to the new line of your code . 
+
+
+
+A callback function is a function passed into another function as an argument .
+
+
+Promisse :
