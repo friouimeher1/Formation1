@@ -1,0 +1,42 @@
+query : is HOC component .
+
+in this query have two parameter :
+
+		--->Key : this key mean all the component that use this key ,use the same data and ,
+		--->function : just a asyn function that call API ,and return a result and anything return are available under the `data` prop .
+
+
+=>Query result stored in Redux store .
+-in the same query :
+	-1 : so the same query we can simply fetch from cache (the store) .
+	-2 : any updates to the data in store will cause dependent components to refresh and,
+
+
+- refetch:is provided via props in case you need to ignore possible cache.
+
+- Status changes of the query are provided via props (loading, error, data)
+
+
+
+
+
+React Apollo : allows you to fetch data from your GraphQL server .
+
+To get started you will first want to create an instance of ApolloClient and then you will want to provide that client to your React component tree using the
+ <ApolloProvider/> component. 
+
+
+		1-when you instance from the class ApolloClient ,by default the client  send query to endpoint '/graphql'  on the same server but you can pass configuration to send to other server .
+
+When using it :
+
+		====>server-side rendering,pagination ,mutations,
+
+
+
+
+
+
+
+
+
