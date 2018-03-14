@@ -1,0 +1,12 @@
+ this.state = {
+      showReply: false
+    } 
+
+
+getGrid =(e) => {
+    e.preventDefault()
+    this.setState({showReply: !this.state.showReply})
+  }
+
+<a onClick={this.getGrid.bind(this)} href='#'>Grid View</a>
+        {this.state.showReply &&
