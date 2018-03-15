@@ -1,0 +1,44 @@
+title:Spread - Arrays
+-----------------------------------------------------
+let a=[1,2,3,4,5]
+let [b,c,...d]
+console.log(b,c,d)
+-----------------------------------------------------
+output :
+b=1,b=2,c=[3,4,5]
+-----------------------------------------------------
+
+
+
+
+
+
+title :Destructuring Assignment -Arrays 
+------------------------------------------------------
+let a=[1,2,3]
+ let[e,b,c]=a
+  console.log(e,b,c)
+------------------------------------------------------
+output :
+e:1 b:2 c:3
+------------------------------------------------------
+title :Destructuring Assignment - Objects
+
+const fullName={name:'react',age:2013,status:'cool'}
+   const {name,...age}=fullName
+   console.log(name)
+   console.log(' ')
+   console.log(age)
+
+------------------------------------------------------
+output :
+
+name:react
+  
+age: {age: 2013, status: "cool"}
+
+
+------------------------------------------------------
+
+
+

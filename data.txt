@@ -1,0 +1,17 @@
+import React from 'react'
+import { Grid, Cell } from 'react-md'
+
+const MapData = (props) => {
+  return props.data.map((el, index) => (
+    <Grid className="grid-style" key={index}>
+      <Cell size={2} phoneSize={4}>
+        <p>{el.name}</p>
+        <p>{el.company}</p>
+        <p>{el.type}</p>
+        <p>{el.location}</p>
+      </Cell>
+    </Grid>
+  ))
+}
+// here put the props and the name pass it as props for exemple
+export default MapData
